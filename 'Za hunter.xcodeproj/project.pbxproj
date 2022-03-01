@@ -13,6 +13,7 @@
 		3F6511CC27CD2FD300FBDAAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6511CB27CD2FD300FBDAAC /* Preview Assets.xcassets */; };
 		3F6511D727CD2FD400FBDAAC /* _Za_hunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6511D627CD2FD400FBDAAC /* _Za_hunterTests.swift */; };
 		3F6511E227CD2FD400FBDAAC /* _Za_hunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6511E127CD2FD400FBDAAC /* _Za_hunterUITests.swift */; };
+		3F6511F027CD326600FBDAAC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6511EF27CD326500FBDAAC /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F6511DD27CD2FD400FBDAAC /* 'Za hunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "'Za hunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6511E127CD2FD400FBDAAC /* _Za_hunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Za_hunterUITests.swift; sourceTree = "<group>"; };
 		3F6511E327CD2FD400FBDAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6511EF27CD326500FBDAAC /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3F6511C427CD2FCC00FBDAAC /* _Za_hunterApp.swift */,
 				3F6511C627CD2FCC00FBDAAC /* ContentView.swift */,
+				3F6511EF27CD326500FBDAAC /* LocationManager.swift */,
 				3F6511C827CD2FD300FBDAAC /* Assets.xcassets */,
 				3F6511CD27CD2FD300FBDAAC /* Info.plist */,
 				3F6511CA27CD2FD300FBDAAC /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				3F6511C727CD2FCC00FBDAAC /* ContentView.swift in Sources */,
 				3F6511C527CD2FCC00FBDAAC /* _Za_hunterApp.swift in Sources */,
+				3F6511F027CD326600FBDAAC /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
